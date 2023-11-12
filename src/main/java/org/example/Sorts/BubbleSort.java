@@ -5,8 +5,8 @@ import org.example.ISort;
 public class BubbleSort implements ISort {
     @Override
     public int[] doSort(int[] array) {
-
         boolean isSorted = false;
+
         int buf;
         while(!isSorted) {
             isSorted = true;

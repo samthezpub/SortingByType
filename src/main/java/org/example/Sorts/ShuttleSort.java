@@ -21,6 +21,13 @@ public class ShuttleSort implements ISort {
         return array;
     }
 
+    /**
+     * Swap elements by index
+     *
+     * @param array - array
+     * @param ind1 - first index (been swapped)
+     * @param ind2 - second index (been swapped)
+     */
     private void swap(int[] array, int ind1, int ind2) {
         int tmp = array[ind1];
         array[ind1] = array[ind2];
